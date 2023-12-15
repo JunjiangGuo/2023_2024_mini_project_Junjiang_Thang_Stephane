@@ -7,3 +7,15 @@ Our projects mainly include：
  - The PCB shield and KiCad project content
  - The Node-Red to display the dashboard
  - The Datasheet for the sensor
+
+## LoRa
+The code in the directory Piste_Verte is a key component of our project, enabling wireless communication over long distances with low power consumption.
+
+<details>
+ <summary><b>Pin Configuration</b></summary>
+```
+#define rxPin 10
+#define txPin 11
+```
+rxPin and txPin are defined for the serial connection to the LoRa module, allowing for data transmission and reception.
+</details>
