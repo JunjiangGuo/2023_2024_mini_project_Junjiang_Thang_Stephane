@@ -13,7 +13,7 @@ The code in the directory Piste_Verte is a key component of our project, enablin
 
 <details>
  <summary><b>Pin Configuration</b></summary>
-```
+```c++
 #define rxPin 10
 #define txPin 11
 ```
