@@ -8,7 +8,7 @@ Our projects mainly include：
  - The Node-Red to display the dashboard
  - The Datasheet for the sensor
 
-## LoRa
+## LoRa<a name="p2"></a>
 The code in the directory Piste_Verte is a key component of our project, enabling wireless communication over long distances with low power consumption.
 
 <details>
@@ -86,5 +86,6 @@ void message(const uint8_t *payload, size_t length, port_t port) { ... }
 ```
 This function handles incoming messages from TTN, decoding them for ports 100 or higher.
 </details>
+
 You can also find the codes:
-- [RN2483.ino]([https://github.com/MOSH-Insa-Toulouse/2021_2022_LIEVRE_NGUYEN/tree/main/Piste_verte/Lora_Tx_mod2mod.ino](https://github.com/JunjiangGuo/2023_2024_mini_project_Junjiang_Thuang_Stephane/blob/master/Piste_Verte/RN2483.ino)https://github.com/JunjiangGuo/2023_2024_mini_project_Junjiang_Thuang_Stephane/blob/master/Piste_Verte/RN2483.ino)
+- [RN2483.ino](https://github.com/JunjiangGuo/2023_2024_mini_project_Junjiang_Thuang_Stephane/blob/master/Piste_Verte/RN2483.ino)
