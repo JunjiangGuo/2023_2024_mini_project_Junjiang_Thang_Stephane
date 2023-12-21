@@ -120,9 +120,6 @@ You can also find the codes:
    > <img height="250" src="Piste_Blue/Schema_image/potentiometer.png"/> 
    > </div>
    
-   > <div class="row" align="center">
-   > <img src="image Kicad projet/pcb imprimé.PNG"/> 
-   > </div>
  
    **Figure 4 - Design du PCB.**
 
