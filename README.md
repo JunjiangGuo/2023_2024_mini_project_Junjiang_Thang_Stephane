@@ -88,7 +88,14 @@ The loop() function reads sensor data, encodes it into bytes, and sends it to TT
 
 void message(const uint8_t *payload, size_t length, port_t port) { ... }
 ```
-## 2.2. Intégration Arduino
+
+This function handles incoming messages from TTN, decoding them for ports 100 or higher.
+</details>
+
+You can also find the codes:
+- [RN2483.ino](https://github.com/JunjiangGuo/2023_2024_mini_project_Junjiang_Thuang_Stephane/blob/master/Piste_Verte/RN2483.ino)
+
+- ## 2.2. Intégration Arduino
    > <div class="row" align="center">
    > <img src="Piste_Blue/Schema_image/ARDU.png"/>
    > </div>
@@ -125,9 +132,3 @@ void message(const uint8_t *payload, size_t length, port_t port) { ... }
 
    **Figure 5 - Circuit intergré des composants.** 
 
-
-This function handles incoming messages from TTN, decoding them for ports 100 or higher.
-</details>
-
-You can also find the codes:
-- [RN2483.ino](https://github.com/JunjiangGuo/2023_2024_mini_project_Junjiang_Thuang_Stephane/blob/master/Piste_Verte/RN2483.ino)
