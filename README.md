@@ -9,7 +9,7 @@ Our projects mainly include：
  - The Datasheet for the sensor
 
 Here is a picture of our circuit: <br>
-<img src="ARDUINO.jpg" height="500"> <br>
+<img src="Arduino.jpg" height="500"> <br>
 
 ## LoRa<a name="p2"></a>
 The code in the directory Piste_Verte is a key component of our project, enabling wireless communication over long distances with low power consumption.
