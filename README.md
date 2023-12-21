@@ -85,8 +85,47 @@ The loop() function reads sensor data, encodes it into bytes, and sends it to TT
  <summary><b>Message Reception Function</b></summary>
  
 ```c++
+
 void message(const uint8_t *payload, size_t length, port_t port) { ... }
 ```
+## 2.2. Intégration Arduino
+   > <div class="row" align="center">
+   > <img src="Piste_Blue/Schema_image/ARDU.png"/>
+   > </div>
+  
+   > <div class="row" align="center">
+   > <img src="Piste_Blue/Schema_image/Capture d'écran 2023-12-21 113837.png"/>
+   > </div>
+
+   > <div class="row" align="center">
+   > <img height="250" src="Piste_Blue/Schema_image/LORA.png"/>
+   > </div>
+  
+   > <div class="row" align="center">
+   > <img height="250" src="Piste_Blue/Schema_image/alim.png"/> 
+   > </div>
+   
+   > <div class="row" align="center">
+   > <img height="250" src="Piste_Blue/Schema_image/gas_sensor.png"/> 
+   > </div>
+   
+   > <div class="row" align="center">
+   > <img height="250" src="Piste_Blue/Schema_image/potentiometer.png"/> 
+   > </div>
+   
+   > <div class="row" align="center">
+   > <img src="image Kicad projet/pcb imprimé.PNG"/> 
+   > </div>
+ 
+   **Figure 4 - Design du PCB.**
+
+   > <div class="row" align="center">
+   > <img src="image Kicad projet/Circuit imprimé.jpg"/>
+   > </div>
+
+   **Figure 5 - Circuit intergré des composants.** 
+
+
 This function handles incoming messages from TTN, decoding them for ports 100 or higher.
 </details>
 
