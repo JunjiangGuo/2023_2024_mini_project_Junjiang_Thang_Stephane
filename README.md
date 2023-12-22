@@ -95,7 +95,7 @@ This function handles incoming messages from TTN, decoding them for ports 100 or
 You can also find the codes:
 - [RN2483.ino](https://github.com/JunjiangGuo/2023_2024_mini_project_Junjiang_Thuang_Stephane/blob/master/Piste_Verte/RN2483.ino)
 
-- ## 2.2. Intégration Arduino
+- ## 2.2. Arduino Integration
    > <div class="row" align="center">
    > <img src="Piste_Blue/Schema_image/ARDU.png"/>
    > </div>
@@ -121,11 +121,11 @@ You can also find the codes:
    > </div>
    
  
-   **Figure 4 - Design du PCB.**
+   **Figure 4 - PCB design.**
 
    > <div class="row" align="center">
    > <img src="image Kicad projet/Circuit imprimé.jpg"/>
    > </div>
 
-   **Figure 5 - Circuit intergré des composants.** 
+   **Figure 5 - Components intergrated PCB.** 
 
