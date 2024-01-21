@@ -124,7 +124,7 @@ You can also find the codes:
    **Figure 4 - PCB design.**
 
    > <div class="row" align="center">
-   > <img src="image Kicad projet/Circuit imprimé.jpg"/>
+   > <img src="Piste_Blue/Schema_image/pcb.png"/>
    > </div>
 
    **Figure 5 - Components intergrated PCB.** 
