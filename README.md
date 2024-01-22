@@ -95,6 +95,17 @@ This function handles incoming messages from TTN, decoding them for ports 100 or
 You can also find the codes:
 - [RN2483.ino](https://github.com/JunjiangGuo/2023_2024_mini_project_Junjiang_Thuang_Stephane/blob/master/Piste_Verte/RN2483.ino)
 
+### AIME Sensor
+The sensor made at AIME has the following schematics:
+
+<img src="https://cdn.discordapp.com/attachments/478677987831578645/1181508059709853696/image.png" height="400" />
+
+There are 10 pins, which are:
+- Two N.C. 
+- The heating resistor (up to 20V).
+- The temperature sensor.
+- The gas sensors themselves (2 of them, so we could theorically have two areas for detecting and evene detect different gases).
+
 ## Arduino Integration
 The required components are: 
 - 100nF capacitors (3)
