@@ -137,7 +137,8 @@ To verify the normal operation of the circuit on LTSpice, we simulate the deform
 <div class="row" align="center">
    <img src="Piste_Blue/image projet/simulation deforme de gauge.PNG"/>
    </div>
-<b align="center">Figure 2 - Simulation of the operation of the amplifier circuit. A voltage pulse makes it possible to model the deformation of the gauge and the variation of the current signal.</b>
+<p align="center">Figure 2 - Simulation of the operation of the amplifier circuit. A voltage pulse makes it possible to model the deformation of the gauge and the variation of the current signal.</p>
+
  
 <div class="row" align="center">
    <img src="Piste_Blue/image projet/resultat deform.PNG"/>
