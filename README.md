@@ -122,25 +122,25 @@ From this AOP, we develop the architecture of the amplifier circuit. The latter 
 <div class="row" align="center">
     <img src="Piste_Blue/image projet/Circuit amplificateur transimpédance.PNG"/>
     </div>
-Figure 1a - Transimpedance amplifier circuit. The *Sensor* resistor represents the strain gauge.
+**Figure 1a - Transimpedance amplifier circuit. The *Sensor* resistor represents the strain gauge.**
 
-> Capacitance C3 is used to filter irregularities in the amplifier supply voltage. Resistor R2 is used to calibrate the amplifier to the desired voltage range, which is that of the ADC of the microcontroller. During the circuit prototyping phase, we used a digital potentiometer in place of this resistor to find its value. Finally, resistor R5 protects the AOP against electrostatic discharges and constitutes an RC filter with capacitance C1 for voltage noise.
+Capacitance C3 is used to filter irregularities in the amplifier supply voltage. Resistor R2 is used to calibrate the amplifier to the desired voltage range, which is that of the ADC of the microcontroller. During the circuit prototyping phase, we used a digital potentiometer in place of this resistor to find its value. Finally, resistor R5 protects the AOP against electrostatic discharges and constitutes an RC filter with capacitance C1 for voltage noise.
 
-> <div class="row" align="center">
-   > <img src="Piste_Blue/image projet/Simulation AC du circuit amplificateur.PNG"/>
-   > </div>
+<div class="row" align="center">
+   <img src="Piste_Blue/image projet/Simulation AC du circuit amplificateur.PNG"/>
+   </div>
 **Figure 1b - AC simulation of the amplifier circuit. The cutoff frequencies at 1.6 Hz, 16 Hz and 1.6 kHz of the three cascaded filters are visible. This simulation allows us to check the frequency operation of our circuit.**
 
-> To verify the normal operation of the circuit on LTSpice, we simulate the deformation of the gauge by an input voltage pulse (Figure 2). This voltage pulse generates a variation in the current at the AOP input. Virtually, this represents the change in conductance of the gauge due to its deformation. For this simulation, we vary the conductance from 5 nS to 20 nS, which corresponds to the order of magnitude of the resistive gauges used. In doing so, we scan roughly the entire range of possible input signals:
+To verify the normal operation of the circuit on LTSpice, we simulate the deformation of the gauge by an input voltage pulse (Figure 2). This voltage pulse generates a variation in the current at the AOP input. Virtually, this represents the change in conductance of the gauge due to its deformation. For this simulation, we vary the conductance from 5 nS to 20 nS, which corresponds to the order of magnitude of the resistive gauges used. In doing so, we scan roughly the entire range of possible input signals:
 
- > <div class="row" align="center">
-   > <img src="Piste_Blue/image projet/simulation deforme de gauge.PNG"/>
-   > </div>
+<div class="row" align="center">
+   <img src="Piste_Blue/image projet/simulation deforme de gauge.PNG"/>
+   </div>
 **Figure 2 - Simulation of the operation of the amplifier circuit. A voltage pulse makes it possible to model the deformation of the gauge and the variation of the current signal.**
  
- > <div class="row" align="center">
-   > <img src="Piste_Blue/image projet/resultat deform.PNG"/>
-   > </div>
+<div class="row" align="center">
+   <img src="Piste_Blue/image projet/resultat deform.PNG"/>
+   </div>
 **Figure 3: Simulation results. In blue, the current signal supplied by the gauge and in green the output voltage of the AOP.**
 
 
