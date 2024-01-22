@@ -129,7 +129,8 @@ Capacitance C3 is used to filter irregularities in the amplifier supply voltage.
 <div class="row" align="center">
    <img src="Piste_Blue/image projet/Simulation AC du circuit amplificateur.PNG"/>
    </div>
-<b align="center">Figure 1b - AC simulation of the amplifier circuit. The cutoff frequencies at 1.6 Hz, 16 Hz and 1.6 kHz of the three cascaded filters are visible. This simulation allows us to check the frequency operation of our circuit.</b>
+<p align="center">Figure 1b - AC simulation of the amplifier circuit. The cutoff frequencies at 1.6 Hz, 16 Hz and 1.6 kHz of the three cascaded filters are visible. This simulation allows us to check the frequency operation of our circuit.</p>
+
 
 To verify the normal operation of the circuit on LTSpice, we simulate the deformation of the gauge by an input voltage pulse (Figure 2). This voltage pulse generates a variation in the current at the AOP input. Virtually, this represents the change in conductance of the gauge due to its deformation. For this simulation, we vary the conductance from 5 nS to 20 nS, which corresponds to the order of magnitude of the resistive gauges used. In doing so, we scan roughly the entire range of possible input signals:
 
