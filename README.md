@@ -121,19 +121,19 @@ There are 10 pins, which are:
 
 
 ## Arduino Integration
-The required components are: 
-- 100nF capacitors (3)
-- 1uF capacitor (1) 
-- 100k&Omega; resistors (2)
-- 10k&Omega; resistors (2)
-- 1k&Omega; resistors (2)
-- 100&Omega; resistor (1)
-- LTC1050 pp-amp (1)
-- MCP41100 potentiometer (1) 
-- SLW12 two-position switch (1)
-- Arduino Uno (1)
-- IRF520 NMOS (1)
-- 7-pin header (1) for a LoRa RN2483 module
+  >The required components are: 
+  >- 100nF capacitors (3)
+  >- 1uF capacitor (1) 
+  >- 100k&Omega; resistors (2)
+  >- 10k&Omega; resistors (2)
+  >- 1k&Omega; resistors (2)
+  >- 100&Omega; resistor (1)
+  >- LTC1050 pp-amp (1)
+  >- MCP41100 potentiometer (1) 
+  >- SLW12 two-position switch (1)
+  >- Arduino Uno (1)
+  >- IRF520 NMOS (1)
+  >- 7-pin header (1) for a LoRa RN2483 module
    > <div class="row" align="center">
    > <img src="Piste_Blue/Schema_image/ARDU.png"/>
    > </div>
