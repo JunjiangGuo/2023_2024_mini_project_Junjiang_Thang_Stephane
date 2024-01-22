@@ -95,7 +95,7 @@ This function handles incoming messages from TTN, decoding them for ports 100 or
 You can also find the codes:
 - [RN2483.ino](https://github.com/JunjiangGuo/2023_2024_mini_project_Junjiang_Thuang_Stephane/blob/master/Piste_Verte/RN2483.ino)
 
-## 2.2. Arduino Integration
+##Arduino Integration
 The required components are: 
 - 100nF capacitors (3)
 - 1uF capacitor (1) 
