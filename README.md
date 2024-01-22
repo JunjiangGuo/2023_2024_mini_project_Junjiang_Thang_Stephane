@@ -1,6 +1,5 @@
 # 2023_2024_mini_project_Junjiang_Thang_Stephane
 
-![hippo](https://media3.giphy.com/gifs/capybara-hi2kPofVMW70)
 
 
 ## Introduction<a name="p1"></a>
