@@ -146,49 +146,47 @@ To verify the normal operation of the circuit on LTSpice, we simulate the deform
 
 
 ## Arduino Integration
-  >The required components are: 
-  >- 100nF capacitors (3)
-  >- 1uF capacitor (1) 
-  >- 100k&Omega; resistors (2)
-  >- 10k&Omega; resistors (2)
-  >- 1k&Omega; resistors (2)
-  >- 100&Omega; resistor (1)
-  >- LTC1050 pp-amp (1)
-  >- MCP41100 potentiometer (1) 
-  >- SLW12 two-position switch (1)
-  >- Arduino Uno (1)
-  >- IRF520 NMOS (1)
-  >- 7-pin header (1) for a LoRa RN2483 module
-   > <div class="row" align="center">
-   > <img src="Piste_Blue/Schema_image/ARDU.png"/>
-   > </div>
+The required components are: 
+  - 100nF capacitors (3)
+  - 1uF capacitor (1) 
+  - 100k&Omega; resistors (2)
+  - 10k&Omega; resistors (2)
+  - 1k&Omega; resistors (2)
+  - 100&Omega; resistor (1)
+  - LTC1050 pp-amp (1)
+  - MCP41100 potentiometer (1) 
+  - SLW12 two-position switch (1)
+  - Arduino Uno (1)
+  - IRF520 NMOS (1)
+  - 7-pin header (1) for a LoRa RN2483 module
+    <div class="row" align="center">
+    <img src="Piste_Blue/Schema_image/ARDU.png"/>
+    </div>
   
-   > <div class="row" align="center">
-   > <img src="Piste_Blue/Schema_image/Capture d'écran 2023-12-21 113837.png"/>
-   > </div>
+    <div class="row" align="center">
+    <img src="Piste_Blue/Schema_image/Capture d'écran 2023-12-21 113837.png"/>
+    </div>
 
-   > <div class="row" align="center">
-   > <img height="250" src="Piste_Blue/Schema_image/LORA.png"/>
-   > </div>
+    <div class="row" align="center">
+    <img height="250" src="Piste_Blue/Schema_image/LORA.png"/>
+    </div>
   
-   > <div class="row" align="center">
-   > <img height="250" src="Piste_Blue/Schema_image/alim.png"/> 
-   > </div>
+    <div class="row" align="center">
+    <img height="250" src="Piste_Blue/Schema_image/alim.png"/> 
+    </div>
    
-   > <div class="row" align="center">
-   > <img height="250" src="Piste_Blue/Schema_image/gas_sensor.png"/> 
-   > </div>
+    <div class="row" align="center">
+    <img height="250" src="Piste_Blue/Schema_image/gas_sensor.png"/> 
+    </div>
    
-   > <div class="row" align="center">
-   > <img height="250" src="Piste_Blue/Schema_image/potentiometer.png"/> 
-   > </div>
+    <div class="row" align="center">
+    <img height="250" src="Piste_Blue/Schema_image/potentiometer.png"/> 
+    </div>
    
- 
-   **Figure 4 - PCB design.**
+ **Figure 4 - PCB design.**
+    <div class="row" align="center">
+    <img src="Piste_Blue/Schema_image/pcb.png"/>
+    </div>
 
-   > <div class="row" align="center">
-   > <img src="Piste_Blue/Schema_image/pcb.png"/>
-   > </div>
-
-   **Figure 5 - Components intergrated PCB.** 
+ **Figure 5 - Components integrated PCB.** 
 
