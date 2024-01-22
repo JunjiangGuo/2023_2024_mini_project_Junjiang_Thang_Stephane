@@ -1,6 +1,6 @@
 # 2023_2024_mini_project_Junjiang_Thang_Stephane
 
-
+![alternative text](https://github.com/thangTRvictr/gif/blob/main/giphy.gif)
 
 ## Introduction<a name="p1"></a>
 Following the production of the AIME laboratory gas sensor, we aim to develop a system using an ESP32 microcontroller. This system will be designed to gather data from the sensor and transmit the detection of a specific gas to a server via a LoRA module.
