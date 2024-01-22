@@ -188,5 +188,5 @@ The required components are:
     <img src="Piste_Blue/Schema_image/pcb.png"/>
     </div>
 
- **Figure 5 - Components integrated PCB.** 
+ **<p align="center">Figure 5 - Components integrated PCB.**</p> 
 
