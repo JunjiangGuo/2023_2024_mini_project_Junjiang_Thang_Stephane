@@ -96,6 +96,19 @@ You can also find the codes:
 - [RN2483.ino](https://github.com/JunjiangGuo/2023_2024_mini_project_Junjiang_Thuang_Stephane/blob/master/Piste_Verte/RN2483.ino)
 
 - ## 2.2. Arduino Integration
+The required components are: 
+- 100nF capacitors (3)
+- 1uF capacitor (1) 
+- 100k&Omega; resistors (2)
+- 10k&Omega; resistors (2)
+- 1k&Omega; resistors (2)
+- 100&Omega; resistor (1)
+- LTC1050 pp-amp (1)
+- MCP41100 potentiometer (1) 
+- SLW12 two-position switch (1)
+- Arduino Uno (1)
+- IRF520 NMOS (1)
+- 7-pin header (1) for a LoRa RN2483 module
    > <div class="row" align="center">
    > <img src="Piste_Blue/Schema_image/ARDU.png"/>
    > </div>
