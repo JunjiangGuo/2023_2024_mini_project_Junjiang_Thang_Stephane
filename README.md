@@ -122,6 +122,11 @@ There are 10 pins, which are:
     </div>
 **Figure 1a - Transimpedance amplifier circuit. The *Sensor* resistor represents the strain gauge.**
 
+> <div class="row" align="center">
+   > <img src="Piste_Blue/image projet/Simulation AC du circuit amplificateur.PNG"/>
+   > </div>
+**Figure 1b - AC simulation of the amplifier circuit. The cutoff frequencies at 1.6 Hz, 16 Hz and 1.6 kHz of the three cascaded filters are visible. This simulation allows us to check the frequency operation of our circuit.**
+
 > Capacitance C3 is used to filter irregularities in the amplifier supply voltage. Resistor R2 is used to calibrate the amplifier to the desired voltage range, which is that of the ADC of the microcontroller. During the circuit prototyping phase, we used a digital potentiometer in place of this resistor to find its value. Finally, resistor R5 protects the AOP against electrostatic discharges and constitutes an RC filter with capacitance C1 for voltage noise.
 
 
