@@ -107,7 +107,7 @@ There are 10 pins, which are:
 - The gas sensors themselves (2 of them, so we could theorically have two areas for detecting and evene detect different gases).
 
  ## Circuit amplifier
- > The conductance of sensor we use is very low (around ten nS) and is powered by a direct voltage of 5V. The sensor amplifier circuit must then be able to extract information from a very low current signal.
+ > The conductance of sensor we use is very low (around ten nS) and is powered by a direct voltage of 12V. The sensor amplifier circuit must then be able to extract information from a very low current signal.
  > In this project, we decided to use a transimpedance assembly consisting of an operational amplifier (AOP) to provide a sufficient voltage signal to the analog-to-digital converter (ADC) of an Arduino UNO board.
  
  >  Our signal is sensitive to amplifier voltage drifts. Our AOP must therefore have a very low input voltage offset so that it cannot distort the signal supplied to the ADC. This restricts our choice of operational amplifier. By shunting this current through a 100 kΩ resistor, the voltage signal supplied to the AOP is 5 mV. For comparison, the [LM741](https://www.ti.com/lit/ds/symlink/lm741.pdf) amplifier has a typical input offset of 1 mV, up to 5 mV. This component is therefore not suitable for our use. So our amplifier must specifically have a low input offset. For this reason, we use the [LTC1050](https://www.analog.com/media/en/technical-documentation/data-sheets/1050fb.pdf), for its drift voltage of 5 µV, or 1000 times weaker than our nominal signal of 5 mV.
