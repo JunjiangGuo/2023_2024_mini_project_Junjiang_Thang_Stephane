@@ -117,10 +117,10 @@ There are 10 pins, which are:
   > - another 1.6 Hz low pass filter (R3C2) coupled to the AOP makes it possible to filter the noise component at 50 Hz coming from the electrical network
   > - at the amplifier output, a final filter (R4C4) of 1.6 kHz is used to process noise due to ADC sampling
 
-> <div class="row" align="center">
-    > <img src="Piste_Blue/image projet/Circuit amplificateur transimpédance.PNG"/>
-    > </div>
-**Figure 1a - Transimpedance amplifier circuit. The *Sensor* resistor represents the strain gauge.**
+<div class="row" align="center">
+    <img src="Piste_Blue/image projet/Circuit amplificateur transimpédance.PNG"/>
+    </div>
+Figure 1a - Transimpedance amplifier circuit. The *Sensor* resistor represents the strain gauge.
 
 > Capacitance C3 is used to filter irregularities in the amplifier supply voltage. Resistor R2 is used to calibrate the amplifier to the desired voltage range, which is that of the ADC of the microcontroller. During the circuit prototyping phase, we used a digital potentiometer in place of this resistor to find its value. Finally, resistor R5 protects the AOP against electrostatic discharges and constitutes an RC filter with capacitance C1 for voltage noise.
 
