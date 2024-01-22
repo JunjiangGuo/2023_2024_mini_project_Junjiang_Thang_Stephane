@@ -141,7 +141,7 @@ To verify the normal operation of the circuit on LTSpice, we simulate the deform
 <div class="row" align="center">
    <img src="Piste_Blue/image projet/resultat deform.PNG"/>
    </div>
-<b align="center">Figure 3 - Simulation results. In blue, the current signal supplied by the gauge and in green the output voltage of the AOP.</b>
+**<p align="center">Figure 3 - Simulation results. In blue, the current signal supplied by the gauge and in green the output voltage of the AOP.**</p>
 
 
 
